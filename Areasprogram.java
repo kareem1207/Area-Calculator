@@ -21,7 +21,7 @@ public  class Areasprogram {
 		areaOfTriangles.areaOfEquilateralTriangle(); 
 		 }
 		 } }
-     if(n==4) {
+     else if(n==4) {
     	 System.out.println("Enter 1 for area of rectangle ,2 for area of square ,Enter 3 for area of parallelogram");
     	 System.out.println("Enter 4 for area of trapezium(trapezoid) , Enter 5 for area of rhombus,Enter 6 for area of kite");
     	 int a = s.nextInt();
@@ -52,8 +52,10 @@ public  class Areasprogram {
     	 }
     	 }
     	 }
-     if (n == 5) {
+     else if (n == 5) {
     	 areaofotherspolygonprogram.areaOfPentagon();
      }
+     else{
+	     System.out.println("The no.of sides you requested is not there yet... ");
      } }  
 
